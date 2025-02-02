@@ -54,12 +54,12 @@ const Hero = () => {
           adventure today.
         </p>
         <div className='AllBtn flex flex-wrap gap-4 sm:pt-4'>
-          <a href='#'>
+          <a href='#/home'>
             <button className='bg-[#FF4553] rounded-sm text-white hover:bg-white hover:text-[#FF4553] transition-colors'>
               Free trail
             </button>
           </a>
-          <a href='#'>
+          <a href='#/home'>
             <button className='bg-white rounded-sm text-black hover:text-[#FF4553] transition-colors'>
               Explore Top Games
             </button>

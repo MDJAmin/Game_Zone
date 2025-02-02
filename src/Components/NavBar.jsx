@@ -66,14 +66,14 @@ export default function AdminLayout({ children }) {
                 <NavLogo href='#'>GameZone</NavLogo>
               </div>
               <div className='hidden md:flex gap-3'>
-                <NavLink href='#'>Dashboard</NavLink>
-                <NavLink href='#'>Games</NavLink>
-                <NavLink href='#'>Orders</NavLink>
+                <NavLink href='#/home'>Dashboard</NavLink>
+                <NavLink href='#/home'>Games</NavLink>
+                <NavLink href='#/home'>Orders</NavLink>
               </div>
             </div>
             <div className='hidden xl:flex gap-4'>
-              <Login href='#'>Login</Login>
-              <SignUp href='#'>Sign up</SignUp>
+              <Login href='#/home'>Login</Login>
+              <SignUp href='#/home'>Sign up</SignUp>
             </div>
             <div className='md:hidden relative'>
               <IoMenu
@@ -88,12 +88,12 @@ export default function AdminLayout({ children }) {
                   ref={menuRef}
                   className='absolute gap-4 flex top-8 flex-col right-0 bg-[#1A242E] shadow-md p-4 w-48 rounded-sm'
                 >
-                  <NavLink href='#'>Dashboard</NavLink>
-                  <NavLink href='#'>Games</NavLink>
-                  <NavLink href='#'>Orders</NavLink>
+                  <NavLink href='#/home'>Dashboard</NavLink>
+                  <NavLink href='#/home'>Games</NavLink>
+                  <NavLink href='#/home'>Orders</NavLink>
                   <div className='flex flex-col gap-8 py-4 ps-3'>
-                    <Login href='#'>Login</Login>
-                    <SignUp href='#'>Sign up</SignUp>
+                    <Login href='#/home'>Login</Login>
+                    <SignUp href='#/home'>Sign up</SignUp>
                   </div>
                 </div>
               )}

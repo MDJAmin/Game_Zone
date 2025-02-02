@@ -92,7 +92,7 @@ const Slider = () => {
             <a
               key={index}
               className='Company hover:text-[#FF4553] transition-colors'
-              href='#'
+              href='#/home'
             >
               {company}
             </a>

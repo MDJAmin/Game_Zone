@@ -102,8 +102,8 @@ const GameCards = () => {
             Assassins Creed series to your tabletop.
           </p>
           <a
-            className='PlayBtn hover:bg-white hover:text-[#FF4553]'
-            href='#'
+            className='PlayBtn'
+            href='#/home'
           >
             Play Now
           </a>
@@ -127,8 +127,8 @@ const GameCards = () => {
             Assassins Creed series to your tabletop.
           </p>
           <a
-            className='PlayBtn hover:bg-white hover:text-[#FF4553]'
-            href='#'
+            className='PlayBtn'
+            href='#/home'
           >
             Play Now
           </a>
