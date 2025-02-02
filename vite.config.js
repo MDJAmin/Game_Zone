@@ -7,6 +7,6 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: '/',
+  base: '/Game_Zone/',
 })
 
