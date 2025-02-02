@@ -1,0 +1,15 @@
+.CardTitle p {
+  text-align: center;
+}
+.CardTitle h3 {
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .CardTitle p {
+    font-size: 0.7em;
+    margin-bottom: 5%;
+  }
+  .CardTitle h3 {
+    font-size: 1em;
+  }
+}
