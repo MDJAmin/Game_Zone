@@ -9,21 +9,21 @@ import { ScrollTrigger } from "gsap/all";
 
 // Define images
 const sliderImages = [
-  { src: "/assets/landingpage/Slider.png", alt: "Slider" },
+  { src: "/Game_Zone/assets/landingpage/Slider.png", alt: "Slider" },
   {
-    src: "/assets/landingpage/Slider1.png",
+    src: "/Game_Zone/assets/landingpage/Slider1.png",
     alt: "Slider 1",
   },
   {
-    src: "/assets/landingpage/Slider2.png",
+    src: "/Game_Zone/assets/landingpage/Slider2.png",
     alt: "Slider 2",
   },
   {
-    src: "/assets/landingpage/Slider4.png",
+    src: "/Game_Zone/assets/landingpage/Slider4.png",
     alt: "Slider 3",
   },
   {
-    src: "/assets/landingpage/Slider5.png",
+    src: "/Game_Zone/assets/landingpage/Slider5.png",
     alt: "Slider 4",
   },
 ];

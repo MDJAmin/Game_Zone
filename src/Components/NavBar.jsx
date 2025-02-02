@@ -59,7 +59,7 @@ export default function AdminLayout({ children }) {
             <div className='flex justify-between items-center'>
               <div className='flex gap-3 items-center'>
                 <img
-                  src='/assets/logo/Icon gamepad.jpeg'
+                  src='/Game_Zone/assets/logo/Icon gamepad.jpeg'
                   alt='Logo'
                   className='sm:w-5 w-4 sm:h-7 h-5'
                 />
