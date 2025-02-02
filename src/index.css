@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
-
 * {
-    font-family: "Anton", sans-serif !important;
-    font-weight: bolder;
-    scroll-behavior: smooth;user-select: none;
-  }
-   
-  body{
-    background: #1A242E;
-  }
+  font-family: "Anton", sans-serif !important;
+  font-weight: bolder;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+  background: #1a242e;
+}

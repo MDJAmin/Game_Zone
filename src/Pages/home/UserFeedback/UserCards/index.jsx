@@ -33,54 +33,54 @@ const UserCard = () => {
   return (
     <div
       ref={CardRef}
-      className="UserCardContainer flex flex-wrap mt-4 justify-center"
+      className='UserCardContainer flex flex-wrap mt-4 justify-center'
     >
-      <div className="UserCard gap-4 flex flex-col">
-        <p className="text-white text-center">
-          Beautiful game, engaging <br /> play. Easy purchase and <br /> fast
-          delivery !
+      <div className='UserCard gap-4 flex flex-col'>
+        <p className='text-white text-center'>
+          Beautiful game, engaging <br /> play. Easy
+          purchase and <br /> fast delivery !
         </p>
-        <div className="flex">
+        <div className='flex'>
           <RiStarSFill />
           <RiStarSFill />
           <RiStarSFill />
           <RiStarSFill />
-          <RiStarSFill className="text-white opacity-75" />
+          <RiStarSFill className='text-white opacity-75' />
         </div>
-        <p className="text-white">RPGFanatic</p>
-        <p className="text-white">Operations Manager,</p>
+        <p className='text-white'>RPGFanatic</p>
+        <p className='text-white'>Operations Manager,</p>
       </div>
 
-      <div className="UserCard gap-4 flex flex-col">
-        <p className="text-white text-center">
-          Stunning card, high- <br /> quality, fast shipping. <br /> Highly
-          recommend !
+      <div className='UserCard gap-4 flex flex-col'>
+        <p className='text-white text-center'>
+          Stunning card, high- <br /> quality, fast
+          shipping. <br /> Highly recommend !
         </p>
-        <div className="flex">
+        <div className='flex'>
           <RiStarSFill />
           <RiStarSFill />
           <RiStarSFill />
           <RiStarSFill />
           <RiStarSFill />
         </div>
-        <p className="text-white">Samuel</p>
-        <p className="text-white">Product Specialist,</p>
+        <p className='text-white'>Samuel</p>
+        <p className='text-white'>Product Specialist,</p>
       </div>
 
-      <div className="UserCard gap-4 flex flex-col">
-        <p className="text-white text-center">
-          Product Purchased: <br /> Pokémon Trading Card <br /> Game Booster
-          Pack
+      <div className='UserCard gap-4 flex flex-col'>
+        <p className='text-white text-center'>
+          Product Purchased: <br /> Pokémon Trading Card{" "}
+          <br /> Game Booster Pack
         </p>
-        <div className="flex">
+        <div className='flex'>
           <RiStarSFill />
           <RiStarSFill />
           <RiStarSFill />
           <RiStarSFill />
           <RiStarSFill />
         </div>
-        <p className="text-white">DarkKnightGamer</p>
-        <p className="text-white">CTO, TechGenius,</p>
+        <p className='text-white'>DarkKnightGamer</p>
+        <p className='text-white'>CTO, TechGenius,</p>
       </div>
     </div>
   );

@@ -13,16 +13,16 @@ import AdminLayout from "../../Components/NavBar";
 const HomePage = () => {
   return (
     <>
-    <AdminLayout/>
-    <div className="flex flex-col">
-      <Hero />
-      <Slider />
-      <GameCards />
-      <Model />
-      <UserFeedBack />
-      <GetStart />
-      <Footer />
-    </div>
+      <AdminLayout />
+      <div className='flex flex-col'>
+        <Hero />
+        <Slider />
+        <GameCards />
+        <Model />
+        <UserFeedBack />
+        <GetStart />
+        <Footer />
+      </div>
     </>
   );
 };

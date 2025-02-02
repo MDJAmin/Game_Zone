@@ -7,7 +7,7 @@ p#HeroTitle {
 #HeroContent {
   position: absolute;
   top: 230px;
-padding-left: 60px;
+  padding-left: 60px;
 }
 button {
   padding: 0.75rem 1rem;

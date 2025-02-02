@@ -54,23 +54,32 @@ const GetStart = () => {
   }, []);
 
   return (
-    <section className="GetStartSection text-white rounded-md shadow-md ">
-      <div ref={StartTitleCardRef} className="CardContent ">
+    <section className='GetStartSection text-white rounded-md shadow-md '>
+      <div
+        ref={StartTitleCardRef}
+        className='CardContent '
+      >
         <p>
           Start Your <br /> Journey with <br />{" "}
-          <span className="text-[#FF4553]"> GameZone </span>
+          <span className='text-[#FF4553]'> GameZone </span>
           <br /> Today!
         </p>
-        <a className="transition-colors" href="/admin/games">
+        <a
+          className='transition-colors'
+          href='/admin/games'
+        >
           Get Start
         </a>
       </div>
       <div ref={StartCardRef}>
-        <Atropos shadow={false} className="my-atropos">
+        <Atropos
+          shadow={false}
+          className='my-atropos'
+        >
           <img
-            className="GetStartImg"
+            className='GetStartImg'
             src={GetStartImg}
-            alt="Get Started Image"
+            alt='Get Started Image'
           />
         </Atropos>
       </div>

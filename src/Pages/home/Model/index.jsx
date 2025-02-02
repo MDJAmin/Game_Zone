@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import Spline from "@splinetool/react-spline";
-import AdminLoading from "../../loading"; 
+import AdminLoading from "../../loading";
 import "./style.modules.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -26,13 +26,19 @@ const Model = () => {
     };
 
     if (splineRef.current) {
-      splineRef.current.addEventListener("wheel", disableZoom);
+      splineRef.current.addEventListener(
+        "wheel",
+        disableZoom
+      );
     }
 
     return () => {
       window.removeEventListener("error", handleError);
       if (splineRef.current) {
-        splineRef.current.removeEventListener("wheel", disableZoom);
+        splineRef.current.removeEventListener(
+          "wheel",
+          disableZoom
+        );
       }
     };
   }, []);
@@ -60,9 +66,12 @@ const Model = () => {
   }, []);
 
   return (
-    <main className=" w-full">
+    <main className=' w-full'>
       <div>
-        <h2 className="modelHeader text-4xl gap-2 flex justify-center" ref={headerRef}>
+        <h2
+          className='modelHeader text-4xl gap-2 flex justify-center'
+          ref={headerRef}
+        >
           <span>Take</span>
           <span>A</span>
           <span>Look</span>
@@ -72,13 +81,16 @@ const Model = () => {
           <span>Merch</span>
         </h2>
       </div>
-      <div className="ModelItem mt-4 pt-4" ref={splineRef}>
-        {loading && <AdminLoading />} 
+      <div
+        className='ModelItem mt-4 pt-4'
+        ref={splineRef}
+      >
+        {loading && <AdminLoading />}
         {error ? (
           <div>Error loading Spline scene: {error}</div>
         ) : (
           <Spline
-            scene="https://prod.spline.design/iZuhyFBKamgS9dEw/scene.splinecode"
+            scene='https://prod.spline.design/iZuhyFBKamgS9dEw/scene.splinecode'
             onLoad={() => setLoading(false)}
             onError={(e) => {
               setError(e.message);
