@@ -6,11 +6,11 @@ function App() {
   return (
     <Routes>
       <Route
-        path='/'
+        path='Game_Zone/'
         element={<WelcomePage />}
       />
       <Route
-        path='/home'
+        path='Game_Zone/home'
         element={<HomePage />}
       />
     </Routes>
