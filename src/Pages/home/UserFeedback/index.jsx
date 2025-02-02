@@ -34,7 +34,7 @@ const FeedBack = () => {
     <section>
       <div
         ref={CardTitleRef}
-        className=' text-white flex flex-col gap-8 justify-center'
+        className=' text-white flex flex-col gap-8 justify-center mt-6'
       >
         <div className='flex justify-center'>
           <h3 className='w-fit text-4xl'>User Feedback</h3>
