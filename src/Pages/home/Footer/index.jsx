@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaTelegram,
+  FaGithub,
 } from "react-icons/fa";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -63,9 +64,9 @@ const Footer = () => {
           </p>
         </div>
         <div className='flex flex-col gap-2'>
-          <FaInstagram className='icons cursor-pointer transition-colors instagram' />
-          <FaYoutube className='icons cursor-pointer transition-colors youtube' />
-          <FaTelegram className='icons cursor-pointer transition-colors telegram' />
+          <a href="https://www.instagram.com/darklordyt_"> <FaInstagram className='icons cursor-pointer transition-colors instagram' /> </a>
+          <a href="https://www.youtube.com/c/DARKLORDCDL"> <FaYoutube className='icons cursor-pointer transition-colors youtube' /> </a>
+          <a href="https://github.com/MDJAmin"> <FaGithub className='icons cursor-pointer transition-colors telegram' /> </a>
         </div>
       </div>
       <span></span>
