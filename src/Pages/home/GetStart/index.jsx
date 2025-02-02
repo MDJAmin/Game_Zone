@@ -66,7 +66,7 @@ const GetStart = () => {
         </p>
         <a
           className='transition-colors'
-          href='/admin/games'
+          href='#'
         >
           Get Start
         </a>
