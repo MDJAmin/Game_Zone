@@ -1,5 +1,5 @@
 // Hero
-export const HeroImg = "/assets/landingpage/Movies & TV 6_16_2024 5_42_19 PM.png";
+export const HeroImg = "/Game_Zone/assets/landingpage/Movies & TV 6_16_2024 5_42_19 PM.png";
 
 // Home Page Imports
 export { default as Hero } from "../Hero";
@@ -11,8 +11,8 @@ export { default as GetStart } from "../GetStart";
 export { default as Footer } from "../Footer";
 
 // GameCard
-export const GameCard1 = "/assets/landingpage/GameCard-1.jpg";
-export const GameCard2 = "/assets/landingpage/GameCard-2.jpg";
+export const GameCard1 = "/Game_Zone/assets/landingpage/GameCard-1.jpg";
+export const GameCard2 = "/Game_Zone/assets/landingpage/GameCard-2.jpg";
 
 // Get Start
-export const GetStartImg = "/assets/landingpage/GetStart.jpg";
+export const GetStartImg = "/Game_Zone/assets/landingpage/GetStart.jpg";
