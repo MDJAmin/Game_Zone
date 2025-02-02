@@ -53,7 +53,7 @@ export default function AdminLayout({ children }) {
 
   return (
     <>
-      <div className='absolute right-0 left-0'>
+      <div className='absolute right-0 left-0 z-50'>
         <div className='relative z-10'>
           <Nav>
             <div className='flex justify-between items-center'>
@@ -86,7 +86,7 @@ export default function AdminLayout({ children }) {
               {isMenuOpen && (
                 <div
                   ref={menuRef}
-                  className='absolute gap-4 flex top-8 flex-col right-0 bg-[#1A242E] shadow-md p-4 w-48 rounded-sm'
+                  className='absolute gap-4 flex top-8 flex-col right-0 bg-[#1A242E] shadow-md p-4 w-48 rounded-sm z-50'
                 >
                   <NavLink href='#/home'>Dashboard</NavLink>
                   <NavLink href='#/home'>Games</NavLink>
