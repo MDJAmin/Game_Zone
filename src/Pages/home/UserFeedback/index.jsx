@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import UserCard from "./UserCards";
 import { ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
-import "./style.modules.css";
+import "./card.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -34,14 +34,16 @@ const FeedBack = () => {
     <section>
       <div
         ref={CardTitleRef}
-        className='CardTitle container text-center text-white flex flex-col gap-4 '
+        className=' text-white flex flex-col gap-8 justify-center'
       >
-        <h3 className='w-fit text-4xl text-center'>
-          User Feedback
-        </h3>
-        <p className='text-center'>
-          Hear What Our Users Say about us :
-        </p>
+        <div className='flex justify-center'>
+          <h3 className='w-fit text-4xl'>User Feedback</h3>
+        </div>
+        <div className='flex justify-center'>
+          <p className=''>
+            Hear What Our Users Say about us :
+          </p>
+        </div>
       </div>
       <div>
         <UserCard />
