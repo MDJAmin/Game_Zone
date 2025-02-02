@@ -78,9 +78,8 @@ export default function WelcomePage() {
             });
         }
     }, []);
-
     const handleClick = () => {
-        navigate("Game_Zone/home"); 
+        navigate(`${import.meta.env.BASE_URL}home`);
     };
 
     return (
