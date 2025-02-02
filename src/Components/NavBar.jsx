@@ -65,17 +65,17 @@ export default function AdminLayout({ children }) {
                 />
                 <NavLogo href='#'>GameZone</NavLogo>
               </div>
-              <div className='hidden md:flex gap-3'>
+              <div className='hidden lg:flex gap-3'>
                 <NavLink href='#/home'>Dashboard</NavLink>
                 <NavLink href='#/home'>Games</NavLink>
                 <NavLink href='#/home'>Orders</NavLink>
               </div>
             </div>
-            <div className='hidden xl:flex gap-4'>
+            <div className='hidden lg:flex gap-4'>
               <Login href='#/home'>Login</Login>
               <SignUp href='#/home'>Sign up</SignUp>
             </div>
-            <div className='md:hidden relative'>
+            <div className='lg:hidden relative'>
               <IoMenu
                 className='relative top-1 cursor-pointer text-2xl hover:text-[#FF4553]'
                 onClick={() => {
