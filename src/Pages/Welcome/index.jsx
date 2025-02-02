@@ -80,7 +80,7 @@ export default function WelcomePage() {
     }, []);
 
     const handleClick = () => {
-        navigate("/home"); 
+        navigate("Game_Zone/home"); 
     };
 
     return (
