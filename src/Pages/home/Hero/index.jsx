@@ -41,7 +41,7 @@ const Hero = () => {
         id='HeroContent'
         className='z-10 px-[4rem]'
       >
-        <p className='text-white text-sm sm:px-2 Discover'>
+        <p className='text-white text-sm Discover'>
           Discover new exciting games& play them anytime !
         </p>
         <p

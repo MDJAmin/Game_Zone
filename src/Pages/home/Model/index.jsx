@@ -60,7 +60,7 @@ const Model = () => {
   }, []);
 
   return (
-    <main className="mt-72 w-full">
+    <main className=" w-full">
       <div>
         <h2 className="modelHeader text-4xl gap-2 flex justify-center" ref={headerRef}>
           <span>Take</span>
