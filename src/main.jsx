@@ -4,10 +4,10 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
 
-const basename = "/Game_Zone";
+// const basename = "/Game_Zone";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename={basename}>
+  <BrowserRouter>
     <StrictMode>
       <App />
     </StrictMode>

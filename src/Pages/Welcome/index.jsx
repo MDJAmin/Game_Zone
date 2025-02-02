@@ -78,9 +78,11 @@ export default function WelcomePage() {
             });
         }
     }, []);
+
     const handleClick = () => {
-        navigate(`${import.meta.env.BASE_URL}home`);
+        navigate(import.meta.env.BASE_URL + "home");
     };
+    
 
     return (
         <div className="flex flex-col h-screen items-center justify-center bg-gray-900">
