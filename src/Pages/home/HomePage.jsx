@@ -8,9 +8,12 @@ import {
   GetStart,
   Footer,
 } from "./constants/index";
+import AdminLayout from "../../Components/NavBar";
 
 const HomePage = () => {
   return (
+    <>
+    <AdminLayout/>
     <div className="flex flex-col">
       <Hero />
       <Slider />
@@ -20,6 +23,7 @@ const HomePage = () => {
       <GetStart />
       <Footer />
     </div>
+    </>
   );
 };
 
