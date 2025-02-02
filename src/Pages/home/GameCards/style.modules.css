@@ -3,7 +3,12 @@
   border-radius: 9px;
   text-align: center;
   background-color: #ff4553;
+  transition: color 0.5s;
   padding: 10px;
+}
+.PlayBtn:hover{
+  color: #ff4553;
+  background-color: #ffffff;
 }
 
 #GameCard1 {
