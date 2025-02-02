@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { HeroGif, HeroImg } from "../constants";
+import { HeroImg } from "../constants";
 import "./style.modules.css";
 import gsap from "gsap";
 

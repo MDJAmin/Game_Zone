@@ -1,5 +1,4 @@
 // Hero
-export const HeroGif = "/assets/landingpage/GameZoneHeroBg (LIVE) .gif";
 export const HeroImg = "/assets/landingpage/Movies & TV 6_16_2024 5_42_19 PM.png";
 
 // Home Page Imports
